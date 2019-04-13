@@ -1,4 +1,4 @@
-/* Namari Landing Page v.1.1.0 Style Index - a free landing page by shapingrain.com
+/* QUantumP Landing Page v.1.0.0 Style 
 
 1. Default and Reset styles
 - 1.1 Input Elements
@@ -96,7 +96,7 @@ figure {
 
 .page-border > .top-border, .page-border > .right-border, .page-border > .bottom-border, .page-border > .left-border {
     padding: 11px;
-    background: #ccc;
+    background: #938EF9;
 }
 
 .page-border .bottom-border, .page-border .top-border {
@@ -353,7 +353,7 @@ section {
 }
 
 #logo img {
-    max-height: 22px;
+    max-height: 42px;
     vertical-align: middle;
     margin-right: 15px;
 }
@@ -767,9 +767,9 @@ h6 {
 }
 
 .section-heading h3 {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
-    color: #ccc;
+    color: #111;
     letter-spacing: 2px;
     padding-bottom: 0;
 }
@@ -783,7 +783,7 @@ h6 {
 }
 
 #banner-content.row {
-    padding-top: 170px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
