@@ -13,6 +13,10 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { SocialComponent } from './social/social.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SliderComponent } from './slider/slider.component';
+//import { NgbdModalBasic } from './modal-basic';
+
 
 @NgModule({
   declarations: [
@@ -26,11 +30,13 @@ import { NavigationComponent } from './navigation/navigation.component';
     FooterComponent,
     HeaderComponent,
     SocialComponent,
-    NavigationComponent
+    NavigationComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

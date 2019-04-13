@@ -10,9 +10,10 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   header ={
-    headings:'How QunatumP works and beneficial for career',
-    headingtext:'Individual metaphorical journey through learning, work and other aspects of knowledge. ',
-    buttontext:'do some action',
+    headings:'"How we help you to achieve your goals and career"',
+    headingtext:'Offline and online mode of learning, according to time and flexibility of student to provide ease of learning to deliver quality of result.',
+    
+    // buttontext:'do some action',
     //buttonlink:'\home'
   };
 
