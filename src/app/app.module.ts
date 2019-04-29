@@ -15,13 +15,21 @@ import { SocialComponent } from './social/social.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SliderComponent } from './slider/slider.component';
-import { Class3to8Component } from './class3to8/class3to8.component';
-import { Class9to12Component } from './class9to12/class9to12.component';
-import { IitjeeComponent } from './iitjee/iitjee.component';
-import { UpscComponent } from './upsc/upsc.component';
-import { UgcComponent } from './ugc/ugc.component';
-import { CatComponent } from './cat/cat.component';
-import { GateComponent } from './gate/gate.component';
+import { Class3to8Component } from './modal/class3to8/class3to8.component';
+import { Class9to12Component } from './modal/class9to12/class9to12.component';
+import { IitjeeComponent } from './modal/iitjee/iitjee.component';
+import { UpscComponent } from './modal/upsc/upsc.component';
+import { UgcComponent } from './modal/ugc/ugc.component';
+import { GateComponent } from './modal/gate/gate.component';
+import { Java8Component } from './modal/java8/java8.component';
+import { TestingComponent } from './modal/testing/testing.component';
+import { BankComponent } from './modal/bank/bank.component';
+import { HadoopComponent } from './modal/hadoop/hadoop.component';
+import { SpringbootComponent } from './modal/springboot/springboot.component';
+import { PythonComponent } from './modal/python/python.component';
+import { AimlComponent } from './modal/aiml/aiml.component';
+import { CounselingComponent } from './modal/counseling/counseling.component';
+import { CatComponent } from './modal/cat/cat.component';
 
 
 @NgModule({
@@ -43,8 +51,16 @@ import { GateComponent } from './gate/gate.component';
     IitjeeComponent,
     UpscComponent,
     UgcComponent,
-    CatComponent,
-    GateComponent
+    GateComponent,
+    Java8Component,
+    TestingComponent,
+    BankComponent,
+    HadoopComponent,
+    SpringbootComponent,
+    PythonComponent,
+    AimlComponent,
+    CounselingComponent,
+    CatComponent
   ],
   imports: [
     BrowserModule,

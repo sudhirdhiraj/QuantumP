@@ -1,0 +1,58 @@
+<section id="clients" class="scrollto clearfix">
+  <ng-template #springboot let-modal>
+    <br />
+    <br />
+    <br />
+    <div class="modal-header">
+      <h4 class="modal-title">Spring, Spring Boot, Microservices, REST API, JPA, GIT, Docker </h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+        <label>Spring : </label>
+        <p>Overview, Architecture, Environment Setup, IoC Container, Bean, Bean Scopes, Bean Life Cycle, Dependency Injection, 
+            Injecting Inner Beans, Injecting Collection, Beans Auto-Wiring, Annotation Based Configuration, Java Based Configuration,
+            AOP, Logging. 
+        </p>
+        <label>Spring Boot : </label>
+        <p>Introduction, Spring Boot Features, Spring Boot Project, Spring Boot Thymeleaf View, 
+          Spring Boot - Enabling Swagger2, Spring Boot JPA.  
+        </p>
+      <label>Microservices : </label>
+      <p>Monolithic Architecture,
+        Challenges of Monolithic Architecture,
+        What is Microservices,
+        Microservice Architecture,
+        Microservices Example – Demo</p>
+      
+      <label>REST API : </label>
+      <p>Basics, Environment Setup, Examples, Resources, Messages, Addressing, Methods, Statelessness,  Caching, Security, 
+        Java (JAX-RS).        
+      </p>
+      <label>JPA : </label>
+      <p>Introduction, Architecture, ORM Components, Installation, Entity, Entity Managers, Collection Mapping,
+        JPQL, Advanced Mappings, Entity Relationships, Criteria API.
+        
+      </p>
+      <label>GIT : </label>
+      <p> Basic Concepts, Environment Setup, ife Cycle, Different Operations (create, clone, push, update, stash, move, rename, delete), 
+        commit, review, perform changes, Tag Operation, Fix Mistakes, Managing Branches, Handling Conflicts, Online Repositories.
+      </p>
+      <label>Maven : </label>
+      <p>
+          Introduction, Environment Setup, POM, Build Life Cycle, Build Profiles, Repositories, Plugins, Creating Project, Build & Test Project,
+          External Dependencies, Build Automation.
+      </p>
+      <label>Docker : </label>
+      <p>
+          Introduction. Installation, Hub, Images, Containers, Architecture, Container and Hosts, Configuring, Continuous Integration.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+    </div>
+  </ng-template>
+  <br>
+  <button class="btn btn-outline-primary mb-2 mr-2" (click)="openLg(springboot)">Details</button>
+</section>

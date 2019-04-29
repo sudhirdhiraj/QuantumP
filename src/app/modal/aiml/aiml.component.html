@@ -1,0 +1,49 @@
+<section id="clients" class="scrollto clearfix">
+  <ng-template #aiml let-modal>
+    <br />
+    <br />
+    <br />
+    <div class="modal-header">
+      <h4 class="modal-title">AIML </h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <label>Artificial Intelligence : </label>
+      <p>Introduction,
+        Intelligent Systems,
+        Research Areas,
+        Agents and Environments,
+        Popular Search Algorithms,
+        Fuzzy Logic Systems,
+        Natural Language Processing,
+        Expert Systems,
+        Robotics,
+        Neural Networks,
+        Issues,
+        Terminology</p>
+      <label>Machine Learning : </label>
+      <p>
+          Introduction to Artificial Intelligence and Machine Learning,
+          Techniques of Machine Learning, Data Preprocessing, Math Refresher, Regression, Classification, Unsupervised learning Clustering,
+          Practice Projects.
+      </p>
+      <label>Deep Learning with TensorFlow : </label>
+      <p>
+          Introduction to Deep Learning, Introduction to TensorFlow, Perceptrons, Activation Functions, Artificial Neural Networks,
+          Gradient Descent and Backpropagation, Optimization and Regularization, Intro to Convolutional Neural Networks, 
+          Introduction to Recurrent Neural Networks, Deep Learning applications.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+    </div>
+
+  </ng-template>
+
+  <br />
+  <br />
+  <button class="btn btn-outline-primary mb-2 mr-2" (click)="openLg(aiml)">Details</button>
+
+</section>

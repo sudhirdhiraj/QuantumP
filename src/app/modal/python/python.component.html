@@ -1,0 +1,54 @@
+<section id="clients" class="scrollto clearfix">
+  <ng-template #python let-modal>
+    <br />
+    <br />
+    <br />
+    <div class="modal-header">
+      <h4 class="modal-title">Python, Data Science with Python</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <label>Python : </label>
+      <p>Introduction,
+        Environment Setup,
+        Basic Syntax,
+        Variable Types,
+        Basic Operators,
+        Decision Making,
+        Loops,
+        Numbers,
+        Strings,
+        Lists,
+        Tuples,
+        Dictionary,
+        Date & Time,
+        Functions,
+        Modules,
+        Files I/O,
+        Exceptions, Object Oriented, Regular Expressions, Database Access. </p>
+      <label>Data Science With Python : </label>
+      <p>Introduction,
+        Data Science Overview,
+        Data Analytics Overview,
+        Statistical Analysis and Business Applications,
+        Python Environment Setup and Essentials,
+        Mathematical Computing with Python (NumPy),
+        Scientific computing with Python (Scipy),
+        Data Manipulation with Pandas,
+        Machine Learning with Scikit–Learn,
+        Natural Language Processing with Scikit Learn,
+        Data Visualization in Python using matplotlib,
+        Web Scraping with BeautifulSoup
+      </p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+    </div>
+  </ng-template>
+  <br />
+  <br />
+  <br />
+  <button class="btn btn-outline-primary mb-2 mr-2" (click)="openLg(python)">Details</button>
+</section>
