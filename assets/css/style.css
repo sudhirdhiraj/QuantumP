@@ -3730,7 +3730,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .table-secondary, .table-secondary>td, .table-secondary>th {
-    background-color: #d6d8db
+    background-color: #C2F5D0
 }
 
 .table-secondary tbody+tbody, .table-secondary td, .table-secondary th, .table-secondary thead th {
@@ -3778,7 +3778,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .table-warning, .table-warning>td, .table-warning>th {
-    background-color: #ffeeba
+    background-color: #D8BAD1
 }
 
 .table-warning tbody+tbody, .table-warning td, .table-warning th, .table-warning thead th {
