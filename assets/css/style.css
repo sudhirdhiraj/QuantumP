@@ -3948,3 +3948,55 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 .table .th1 {
     vertical-align: middle;
   }
+
+   /* btn-info */
+   /* .bg-info{background-color:#d9edf7}a.bg-info:focus,a.bg-info:hover{background-color:#afd9ee} */
+   /* .bg-info{background-color:#dff0d8} */
+
+   .sd-info{background-color:#dff0d8}a.sd-info:focus,a.sd-info:hover{background-color:#c1e2b3}
+
+   /* scrolling text */
+   .example1 {
+    height: 50px;	
+    overflow: hidden;
+    position: relative;
+   }
+   .example1 p {
+    /* font-size: 3em; */
+    color: limegreen;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
+    /* Apply animation to this element */	
+    -moz-animation: example1 18s linear infinite;
+    -webkit-animation: example1 18s linear infinite;
+    animation: example1 18s linear infinite;
+   }
+   /* Move it (define the animation) */
+   @-moz-keyframes example1 {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+   }
+   @-webkit-keyframes example1 {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+   }
+   @keyframes example1 {
+    0%   { 
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%); 
+    }
+   }
