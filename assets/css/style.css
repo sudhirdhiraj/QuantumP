@@ -3961,7 +3961,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
     overflow: hidden;
     position: relative;
    }
-   .example1 p {
+   .example1 b {
     /* font-size: 3em; */
     color: limegreen;
     position: absolute;
